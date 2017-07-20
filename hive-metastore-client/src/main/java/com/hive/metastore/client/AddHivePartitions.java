@@ -74,7 +74,7 @@ public class AddHivePartitions {
 	}
 
 	public static void main(String[] args) throws Exception {
-		String path = args[0]; // "config.properties";
+		String path = args[0]; // path to config.properties file
 		Config cfg = new Config(path);
 		addPartition(cfg);
 
