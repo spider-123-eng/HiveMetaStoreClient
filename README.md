@@ -3,7 +3,9 @@ This Project explains how to use HiveMetaStoreClient, HiveJdbcDriver, HiveServer
 
 HOW-TO : CONNECT HIVESERVER2 SERVICE WITH JDBC CLIENT ?                                                       
 HOW-TO : CONNECT HiveMetaStore SERVICE WITH HiveMetaStore CLIENT ?                                                                    
-
+In-order to run this examples the following services should be up and running .                                   
+>hive --service hiveserver2                                                             
+>hive --service metastore                                                                     
 
 Hive Installation :
 -------------------
