@@ -23,3 +23,9 @@ Set Environment Variables :
 Copy mysql jar to hive lib folder (To use mysql as hive meta store)                                               
 cd $HIVE_HOME/lib                                               
 wget http://central.maven.org/maven2/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar                                     
+
+
+References :
+------------
+Configure Hive with MySQL Metastore : http://backtobazics.com/big-data/4-steps-to-configure-hive-with-mysql-metastore-on-centos/        
+Install MySQL : https://www.linode.com/docs/databases/mysql/install-mysql-on-ubuntu-14-04                         
