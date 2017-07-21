@@ -1,4 +1,4 @@
-package com.hive.metastore.client;
+package com.hive.jdbc.client;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -21,7 +21,7 @@ public class HiveJdbcClient {
 			e.printStackTrace();
 			System.exit(1);
 		}
-		Connection con = DriverManager.getConnection("jdbc:hive2://localhost:10000/default", "root", "Aruba@123");
+		Connection con = DriverManager.getConnection("jdbc:hive2://localhost:10000/default", "root", "root@123");
 		Statement stmt = con.createStatement();
 
 		String tableName = "employee";
